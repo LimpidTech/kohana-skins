@@ -1,8 +1,5 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-// TODO: Move this into configuration
-define('DEFAULT_VIEWS_SKIN_DIR', 'default');
-
 class View extends Kohana_View {
 	private $skin_base_dir = 'skins';
 
