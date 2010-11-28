@@ -11,9 +11,9 @@ Skin views are placed in **application/skins/skin_name**. In a standard installa
 
 For instance, if a user that prefers a skin called 'simple' was to visit a controller that loads the *index* view - the view will be searched for with the following paths:
 
-1. application/skins/simple/index.php
-2. application/skins/default/index.php
-3. application/views/index.php
+0. application/skins/simple/index.php
+0. application/skins/default/index.php
+0. application/views/index.php
 
 You can create some fairly elaborate relationships with this pattern. Allowing you to, in example, create a navigation.php view in views/ that all skins can make use of. When changing this navigation.php file, you will then be modifying all skins instead of having to modify each one separately.
 
