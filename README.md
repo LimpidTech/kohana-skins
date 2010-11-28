@@ -3,7 +3,7 @@
 
 ## What is this?
 
-This is a small application that I use which extends the default Kohana View system to support templat skinning. When used in tandem with kohana-resources, it allows web sites to be fully reskinned without changing any URLs in the original site.
+This is a small application that I use which extends the default Kohana View system to support view skinning. When used in tandem with kohana-resources, it allows web sites to be fully reskinned without changing any URLs in the original site.
 
 ## Getting started
 
