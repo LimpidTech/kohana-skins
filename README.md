@@ -7,7 +7,7 @@ This is a small application that I use which extends the default Kohana View sys
 
 ## Getting started
 
-Skin views are placed in **application/skins/skin_name** and the skin name is standardly set to 'default'. However, this can be changed in the configuration. It is best practice to only provide skin-specific views within your skin directories, as the system will cascade if files don't exist.
+Skin views are placed in **application/skins/skin_name**. In a standard installation, the skin name is set to 'default'. However, this can - of course - be changed in the configuration. It is best practice to only provide skin-specific views within your skin directories, as the system will cascade if files don't exist.
 
 For instance, if a user that prefers a skin called 'simple' was to visit a controller that loads the *index* view - the view will be searched for with the following paths:
 
