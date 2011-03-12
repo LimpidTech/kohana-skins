@@ -15,8 +15,12 @@ class View extends Kohana_View {
 	 */
 	public function get_skindir($skin_dir)
 	{
-			// TODO: Make directory separators system independant.
-		return $this->skin_base_dir . '/' . $skin_dir;
+		$path_segments = Array(
+			$this->skin_base_dir,
+			$skin_dir,
+		);
+
+		return implode(DIRECTORY_SEPARATOR, $path_segments);
 	}
 
 	/**
